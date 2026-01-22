@@ -1,5 +1,6 @@
 # Predictive-and-Forecasting-Analysis-for-super-Store-dataset
 In this Project we developed our works from the previous stages: 
+
   • data preprocessing.
   • [Descriptive Analytics](https://github.com/ishraq-dagamseh/SuperStore-Data-Analysis-using-PowerBI) to find out What happend.
   • [Diagnostic Analytics ](https://github.com/ishraq-dagamseh/Diagnostic-Analytics-to-superstore-dataset) to find out Why it happened. 
@@ -14,13 +15,16 @@ What is likely to happen in the future?
 3. Three measurements added to the Dashboard: Expected margin to Estimate the margin for the next month using time intelligencebased on this equation: Expected Margin = CALCULATE([Profit Margin1],DATEADD('Sample - Superstore'[Date], 1, MONTH)),
    Margin Trend to Compares expected margin with the current margin based on  this equation: Margin Trend = IF([Expected Margin] < [Profit Margin1], "⬇️ Decline", "⬆️ Growth"), and and Classifies business risk using a predefined threshold (0.1) based on this equation: Risk Level = IF([Expected Margin] < 0.1, "High Risk", "Normal").
 4. Two matrix visuals were created to summarize predictive insights:
+	
 	•	Matrix 1: Measures by Category
 	•	Matrix 2: Measures by Region
 
+
 Each matrix displays:
-	•	Expected Margin
-	•	Margin Trend
-	•	Risk Level
+	
+•	Expected Margin
+•	Margin Trend
+•	Risk Level
    
 # Our findings and Conclusions:
    •	The forecast indicates that profit margin is expected to increase from 0.10 to approximately 0.13, after which it remains stable for around four months.
