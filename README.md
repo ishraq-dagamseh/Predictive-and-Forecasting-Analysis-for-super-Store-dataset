@@ -1,5 +1,12 @@
 # Predictive-and-Forecasting-Analysis-for-super-Store-dataset
-In this Project we developed our works from the previous stages: data preprocessing,[Descriptive Analytics](https://github.com/ishraq-dagamseh/SuperStore-Data-Analysis-using-PowerBI) to find out What happend ,and [Diagnostic Analytics ](https://github.com/ishraq-dagamseh/Diagnostic-Analytics-to-superstore-dataset) to find out Why it happened, by creating a third type of data analysis, which is: predictive analysis to find out what will happen in the future.
+In this Project we developed our works from the previous stages: 
+  • data preprocessing.
+  • [Descriptive Analytics](https://github.com/ishraq-dagamseh/SuperStore-Data-Analysis-using-PowerBI) to find out What happend.
+  • [Diagnostic Analytics ](https://github.com/ishraq-dagamseh/Diagnostic-Analytics-to-superstore-dataset) to find out Why it happened. 
+By building on these stages, we introduce a third type of data analysis: Predictive Analytics, which aims to answer:
+
+What is likely to happen in the future?
+
 
 # Our steps:
 1. make line chart to show the current relationship between the profit Margin and the Date (Month and years), then we add Forcasting feature To predict the future relationship for the next 6 months with Confidence Interval of 95%.
